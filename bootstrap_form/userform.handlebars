@@ -1,0 +1,32 @@
+ <div class="container mt-4">
+    <h1>Cadastro de Produto</h1>
+    <form action="/cadastrarproduto" method="POST">
+      <div class="mb-3">
+        <label for="nomeProduto" class="form-label">Nome do Produto</label>
+        <input type="text" class="form-control" id="nomeProduto" name="nomeProduto">
+      </div>
+      <div class="mb-3">
+        <label for="nomeFornecedor" class="form-label">Nome do Fornecedor</label>
+        <input type="text" class="form-control" id="nomeFornecedor" name="nomeFornecedor">
+      </div>
+      <div class="mb-3">
+        <label for="dataCompra" class="form-label">Data da Compra</label>
+        <input type="date" class="form-control" id="dataCompra" name="dataCompra">
+      </div>
+      <div class="mb-3">
+        <label for="valorCompra" class="form-label">Valor de Compra</label>
+        <input type="number" class="form-control" id="valorCompra" name="valorCompra">
+      </div>
+      <div class="mb-3">
+        <label for="valorVenda" class="form-label">Valor de Venda</label>
+        <input type="number" class="form-control" id="valorVenda" name="valorVenda">
+      </div>
+      <div class="mb-3">
+        <label for="categoria" class="form-label">Categoria</label>
+        <input type="text" class="form-control" id="categoria" name="categoria">
+      </div>
+      <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+  </div>
+</body>
+</html>
